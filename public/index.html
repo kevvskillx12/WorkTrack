@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>WorkTrack — Control de Asistencia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <h1>WorkTrack — Control de Asistencia</h1>
+
+  <section class="registro">
+    <h2>Registrar Entrada / Salida</h2>
+    <input type="text" id="employeeId" placeholder="ID Empleado">
+    <input type="text" id="name" placeholder="Nombre">
+    <input type="time" id="time">
+    <button id="checkinBtn">Check-in</button>
+    <button id="checkoutBtn">Check-out</button>
+    <div id="msg"></div>
+  </section>
+
+  <section class="consulta">
+    <h2>Consultar Asistencia</h2>
+    <label>Desde: <input type="date" id="startDate"></label>
+    <label>Hasta: <input type="date" id="endDate"></label>
+    <button id="loadBtn">Cargar Registros</button>
+  </section>
+
+  <section class="tabla">
+    <h2>Asistencia</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Empleado</th>
+          <th>Nombre</th>
+          <th>Fecha</th>
+          <th>Entrada</th>
+          <th>Salida</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody id="attendanceTable">
+        <!-- Registros se cargan aquí -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

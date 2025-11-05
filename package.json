@@ -1,0 +1,34 @@
+{
+  "name": "worktrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevvskillx12/TaskFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kevvskillx12/TaskFlow/issues"
+  },
+"homepage": "https://github.com/kevvskillx12/TaskFlow#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "better-sqlite3": "^12.4.1",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
