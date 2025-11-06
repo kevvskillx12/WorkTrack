@@ -1,17 +1,22 @@
-Actividad 6 – Arquitectura Event-Driven (EDA) + Patrón Observer
+🧩 Actividad 6 – Arquitectura Event-Driven (EDA) + Patrón Observer
+🏢 Caso Práctico: Control de Asistencia (WorkTrack)
+📘 Descripción
 
-Caso práctico: Control de Asistencia (WorkTrack)
-
-Descripción:
 La empresa WorkTrack desea un sistema que registre la asistencia de empleados y notifique
 automáticamente los eventos generados (entrada, salida, retraso). Los módulos deben comunicarse por
 eventos.
 
-Integrantes:
 
-MONTERO GONZALEZ KEVIN DEL JESUS	
-PEREZ MENENDEZ ANDRES EDREI	
+👨‍💻 Integrantes del Equipo
 
-Grado y Grupo: 7A
+Montero González Kevin del Jesús
+Pérez Menéndez Andrés Edrei	
 
-IGDS
+🏫 Información Académica
+Grado y Grupo: 7°A
+
+Materia: Ingeniería de Desarrollo de Software (IGDS)
+
+Actividad: 6 – Arquitectura Event-Driven (EDA) + Patrón Observer
+
+
